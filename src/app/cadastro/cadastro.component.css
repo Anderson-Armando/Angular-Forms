@@ -1,0 +1,30 @@
+.example-form {
+  max-width: 600px; /* Define uma largura máxima para o formulário */
+  margin: 0 auto;   /* Centraliza o formulário horizontalmente */
+  padding: 20px;    /* Adiciona um padding para espaçamento interno */
+  border: 1px solid #ccc; /* Adiciona uma borda ao formulário */
+  border-radius: 8px; /* Arredonda os cantos do formulário */
+  background-color: #f9f9f9; /* Define uma cor de fundo para o formulário */
+}
+
+.example-full-width {
+  width: 100%; /* Faz com que os campos de input ocupem toda a largura disponível */
+}
+
+mat-form-field {
+  width: 100%; /* Faz com que cada campo de input ocupe toda a largura do contêiner */
+}
+
+button {
+  display: block; /* Faz com que o botão seja exibido como um bloco */
+  width: 100%; /* Faz com que o botão ocupe toda a largura do contêiner */
+  margin-top: 20px; /* Adiciona um espaçamento acima do botão */
+}
+
+h1 {
+  text-align: center; /* Centraliza o título do formulário */
+  margin-bottom: 20px; /* Adiciona um espaçamento abaixo do título */
+}
+
+
+

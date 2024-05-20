@@ -1,0 +1,49 @@
+<div>
+  <form class="example-form">
+    <h1>FORMULÁRIO</h1>
+    
+    <mat-form-field class="example-full-width">
+      <mat-label>Resumo:</mat-label>
+      <input matInput placeholder="Ex. Eu sou andisinha" value="">
+    </mat-form-field>
+
+    <br/>
+    <label>Tipo de Problema:</label>
+    <br/>
+    
+    <mat-radio-group aria-label="Select an option">
+      <mat-radio-button value="1">Tarefa</mat-radio-button>
+      <mat-radio-button value="2">Bug</mat-radio-button>
+    </mat-radio-group>
+    <br />
+
+    <mat-form-field class="example-full-width">
+      <mat-label>Escolher Prioridade:</mat-label>
+      <mat-select>
+        <mat-option value="-1">Selecione</mat-option>
+        <mat-option value="0">Crítica</mat-option>
+        <mat-option value="1">Alta</mat-option>
+        <mat-option value="2">Média</mat-option>
+        <mat-option value="3">Baixa</mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <br />
+    <mat-form-field class="example-full-width">
+      <mat-label>Escolha uma data</mat-label>
+      <input matInput [matDatepicker]="picker">
+      <mat-hint>MM/DD/YYYY</mat-hint>
+      <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+      <mat-datepicker #picker></mat-datepicker>
+    </mat-form-field>
+    <br />
+    <mat-form-field class="example-full-width">
+      <mat-label>Descrição:</mat-label>
+      <textarea matInput placeholder="Ex. It makes me feel..."></textarea>
+    </mat-form-field>
+    <br/>
+    <div class="example-button-row">
+      <button mat-flat-button color="primary">Enviar</button>
+    </div>
+  </form>
+</div>

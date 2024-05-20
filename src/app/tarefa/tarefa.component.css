@@ -1,0 +1,36 @@
+.example-form {
+  max-width: 600px; /* Define uma largura máxima para o formulário */
+  margin: 0 auto;   /* Centraliza o formulário horizontalmente */
+  padding: 20px;    /* Adiciona um padding para espaçamento interno */
+  border: 1px solid #ccc; /* Adiciona uma borda ao formulário */
+  border-radius: 8px; /* Arredonda os cantos do formulário */
+  background-color: #f9f9f9; /* Define uma cor de fundo para o formulário */
+}
+
+.example-full-width {
+  width: 100%; /* Faz com que os campos de input ocupem toda a largura disponível */
+}
+
+mat-form-field {
+  width: 100%; /* Faz com que cada campo de input ocupe toda a largura do contêiner */
+}
+
+mat-radio-group {
+  display: flex; /* Alinha os botões de rádio em uma linha */
+  gap: 20px; /* Adiciona espaçamento entre os botões de rádio */
+}
+
+.example-button-row {
+  text-align: center; /* Centraliza o botão na linha */
+  margin-top: 20px; /* Adiciona espaçamento acima do botão */
+}
+
+h1 {
+  text-align: center; /* Centraliza o título do formulário */
+  margin-bottom: 20px; /* Adiciona um espaçamento abaixo do título */
+}
+
+label {
+  display: block; /* Faz com que o label ocupe uma linha inteira */
+  margin-bottom: 5px; /* Adiciona espaçamento abaixo do label */
+}
